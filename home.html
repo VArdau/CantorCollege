@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width : 720px)"/>
+    <title>Cantor College :: Home</title>
+  </head>
+ 
+  <body>
+    <div id="container">
+    <!-- need to have container when move to desktop -->
+    <header>
+      <!--<div class="logo-nav"> -->
+        <div id="logo">
+        <!--<div class="logoImg"><img src="images/logo-resized.png" alt="Logo" /></div>-->
+        <div class="logoImg"><a href="home.html"><img src="images/logo-resized.png" alt="Logo" /></a></div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+        </div>
+      <!--<div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="computing-courses.html">Computing Courses</a></li>
+            <li><a href="design-courses.html">Design Courses</a></li>
+            <li><a href="find-us.html">Find Us</a></li>
+            <li><a href="learning-resources.html">Learning Resources</a></li>
+            <!-<li><a href="docs/learning resources.pdf" target="_blank">Learning Resources</a></li> opens a new tab and is a pdf->
+            <li><a href="info-for-staff.html">Information for Staff</a></li>
+            <li><a href="info-for-students.html">Information for Students</a></li>
+            <li><a href="working-with-business.html">Working with Businesses</a></li> 
+          </ul>
+        </nav> 
+      </div> -->
+        <!--second attempt -->
+        <div>
+        <nav>
+        <ul>
+          <!--<li><a href="home.html">Home</a></li>-->
+          <li><a href="contact-us.html">Contact Us</a></li>
+
+          <li><a href="about-us.html">About Us</a>
+          <ul>
+            <li><a href="working-with-business.html">Working with Businesses</a></li> 
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="find-us.html">Find Us</a></li>
+          </li></ul>
+
+          <li><a href="#">Courses</a>
+          <ul>
+            <li><a href="computing.php">Computing Courses</a></li>
+            <li><a href="design.php">Design Courses</a></li>
+          </li></ul>
+          
+          <li><a href="#">More</a>
+          <ul>
+          <li><a href="learning-resources.html">Learning Resources</a></li>
+          <li><a href="info-for-staff.html">For Staff</a></li>
+          <li><a href="info-for-students.html">For Students</a></li>
+          </li></ul>
+        </ul> 
+        </nav>
+        </div>
+    </header>
+    <main>
+      <div>
+        <div>
+          <p>
+            <div class="inside">
+            <img src="images/resized/home-one.jpg" alt="Facilities"/> <!--images/home-facility.jpeg-->
+            <ul class="bottomleft"><li><a href="facilities.html">Our facilities</a></li></ul>
+            <!--had the class in the anchor tag, moved it to the list so the courses would look the same-->
+            <!--<ul><div class="bottomleft"><li><a href="facilities.html">Our facilities</a></li></div></ul>
+            looking back it doesnt make sense to have a div there-->
+            </div>
+          </p>
+        </div>
+        <div>
+          <p>
+            <div class="inside">
+              <img src="images/resized/home-two.jpg" alt="Courses"/> <!--images/home-course.jpeg-->
+              <ul class="bottomleft">
+                <li><a href="computing-courses.html">Computing Course</a></li>
+                <li><a href="design-couses.html">Design Course</a></li>
+              </ul>
+              <!--if i put it inside the anchor it would overlay (because there are two list items), 
+              and inside the ul the spacing was off, which i sorted in the CSS-->
+            </div>
+            </p>
+        </div>
+        <div>
+          <p>
+            <div class="inside">
+              <img src="images/resized/home-three.jpg" alt="About Us"> <!--had forgotten to put an alt-->
+              <ul class="bottomleft"><li><a href="about-us.html">About Us</a></li></ul>
+            </div>
+          </p>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+     <div>
+        <!--<ul id="footer">
+        <li><h5>
+          Cantor College <br />
+          Main Street <br />
+          Sheffield <br />
+          SC4 2BB
+        </h5></li>
+        <li><h5>Tel:(01321) 2340 235</h5></li>
+        <li><h5>Fax: (01321) 2340 236</h5></li>
+        <li><h5>Email: info@cantorcollege.ac.uk</h5></li>
+        <li><h5>Copyright &copy; 2022</h5></li>
+        <ul> -->
+
+          <div class="footer">
+          <p>Cantor College <br />
+          Main Street <br />
+          Sheffield <br />
+          SC4 2BB </p>
+          <p>Tel:(01321) 2340 235 </p>
+          <p>Fax: (01321) 2340 236 </p>
+          <p>Email: info@cantorcollege.ac.uk </p>
+          </div>
+
+          <div class="footer">
+          <p>Information for:<p>
+          <ul class="footerlinks"> <!--before didnt have ul or a class. and before li had paragraph-->
+          <li><a href="info-for-staff.html">Staff</a></li>
+          <li><a href="info-for-students.html">Students</a></li>
+          <li><a href="working-with-business.html">Businesses</a></li>
+          </ul>
+          </div>
+
+          <div class="footer">
+          <p>Information about:</p>
+          <ul  class="footerlinks">
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="learning-resources.html">Learning Resources</a></li>
+          <li><a href="find-us.html">How To Find Us</a></li>
+          </ul>
+          </div>
+
+          <p id="copyright">Copyright &copy; 2022 </p>
+      </div>
+    </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+  <!--<body>
+    <header>
+      <div class="header">
+        <!-logo-->
+        <!--<div id="logo">
+          <img src="images/logo-resized.png" alt="logo" />
+        </div>
+        <--navigation. Need a list it seems-->
+        <!--<div id="menu"> 
+          <img src="images/menu-resized.png" alt="menu" /> -->
+          <!--<div id="menu">
+          <nav>
+            <ul>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="courses">Courses</a></li>
+              <li><a href="how-to-find-us.html">How To Find Us</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="more(html)">More</a></li>
+            </ul>
+          </nav>
+          </div>
+        
+        </div>
+      </div>
+    </header>
+      
+  </body>
+</html> -->
